@@ -52,6 +52,14 @@ nav{
     font-size: 16px;
     padding: 10px 15px;
 }
+.responsive-btn{
+    display: none !important;
+    color: #fff;
+    background-color: #ed6c4f7b;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+}
 .nav-right>a{
     display: flex;
 }
@@ -185,11 +193,3 @@ nav{
     margin-right: 7px;
 }
 
-.responsive-btn{
-    display: none !important;
-    color: #fff;
-    background-color: #ed6c4f7b;
-    padding: 8px 20px;
-    border-radius: 5px;
-    font-size: 30px;
-}

@@ -22,7 +22,7 @@
 }
 @media  screen and (max-width: 768px) {
     .playersAndBlogAndCourseParent .container{
-        padding: 0 5g0px;
+        padding: 0 50px;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
@@ -41,10 +41,14 @@
         display: none;
         position: absolute;
         top: 100%;
-        width: 400px;
+        width: 150px;
         background-color: #562EFF;
     }
     .nav-right ul li{
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .nav-right ul li a{
         display: block;
     }
     .responsive-btn{
