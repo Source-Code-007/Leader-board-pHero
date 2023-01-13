@@ -21,6 +21,9 @@
     }
 }
 @media  screen and (max-width: 768px) {
+    .playersAndBlogAndCourseParent .container{
+        padding: 0 5g0px;
+    }
     .players{
         grid-template-columns: repeat(1, 1fr);
         row-gap: 50px;
